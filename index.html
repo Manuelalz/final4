@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pagina 1</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body background="fondo.jpg">
+<center>
+	<div class="autor">Realizado por: Manuela Londoño Zapata</div>
+	<div class="hola1" id="hola1">
+		<button class="boton1" id="boton1" onclick="click1()">Leer</button>
+	</div>
+</center>
+<script>
+	var click1=function()
+	{
+		n=document.getElementById('hola1');
+		n.className="hola11";
+		boton=document.getElementById('boton1');
+		boton.style.display="none";
+		setTimeout(pasa,15000);
+	}
+	var pasa=function()
+	{
+		window.location.href='pagina1.html';
+	}
+
+</script>
+</body> 
+</html>

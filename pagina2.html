@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Parte#2</title>
+	<link rel="stylesheet" type="text/css" href="pagina2.css">
+</head>
+<body background="fondo.jpg">
+	<div class="chiq" id="chiqui">
+		<center><div class="letr" id="letra"><h2>¿Quieres ver que sueña Oso? Dale al punto que está cerca de él.</h2></div></center>
+		<div class="text" id="text"></div>
+		<audio src="fondo2.mp3" id="fondo" autoplay></audio>
+	</div>
+	<div class="cuadro" id="cuadro">
+		<button class="hi" id="hi" onclick="holi()"><b><h2>Dale click para iniciar</h2></b></button>
+		<div class="animacio" id="ani2">
+			<audio src="escena2.mp3" id="sonido" autoplay></audio>
+		</div>
+
+		<div class="tve" id="tv" onclick="tv()"></div> 
+		<audio src="tv.mp3" id="sonitv" autoplay></audio>
+		<div class="puntoe" id="punto" onclick="punto()"></div>
+		<audio src="sueño.mp3" id="sonisue" autoplay></audio>
+		<div class="perroe" id="perro" onclick="perro()"></div>
+		<audio src="perro.mp3" id="soniper" autoplay></audio>
+	
+		<div class="pagina"><img src="2.png"></div>
+		<div class="previus"><a href="pagina1.html"><img src="previus.png"></a></div>
+		<div class="next"><a href="pagina3.html"><img src="next.png"></a></div>
+	</div>
+<script>
+	var holi=function()
+	{
+		const sonido=document.getElementById('sonido');
+		sonido.innerHTML='<audio src="escena2.mp3" autoplay></audio>';
+		const fondo=document.getElementById('fondo');
+		fondo.innerHTML='<audio src="fondo2.mp3" autoplay></audio>';
+		n=document.getElementById('ani2');	
+		n.className="animacion";
+		texto=document.getElementById('text');	
+		texto.className="texto";
+		cuadri=document.getElementById('chiqui');	
+		cuadri.className="chiqui";
+		setTimeout(quieto,19000);
+	}
+
+	var quieto=function()
+	{
+		texto=document.getElementById('text');	
+		texto.className="text";
+		n=document.getElementById('ani2');
+		n1=document.getElementById('tv');
+		n2=document.getElementById('punto');
+		n3=document.getElementById('perro');
+		n.className="estatica";
+		n1.className="tv";
+		n2.className="punto";
+		n3.className="perro";
+		const fondo=document.getElementById('fondo');
+		fondo.innerHTML='<audio src="fondo2.mp3" autoplay loop></audio>';
+		const soniper=document.getElementById('soniper');
+		soniper.innerHTML='<audio src="perro.mp3"></audio>';
+		letra=document.getElementById('letra');	
+		letra.className="letra";
+	} 
+
+	var tv=function()
+	{
+		n=document.getElementById('ani2');
+		n1=document.getElementById('tv');
+		n2=document.getElementById('punto');
+		n3=document.getElementById('perro');
+		n.className="anitv";
+		n1.className="tve";
+		n2.className="puntoe";
+		n3.className="perroe";
+		const sonitv=document.getElementById('sonitv');
+		sonitv.innerHTML='<audio src="tv.mp3" autoplay></audio>';
+		const fondo=document.getElementById('fondo');
+		fondo.innerHTML='<audio src="fondo2.mp3"></audio>';
+		letra=document.getElementById('letra');	
+		letra.className="letra";
+		setTimeout(quieto,8400);
+	}
+
+	var punto=function()
+	{
+		n=document.getElementById('ani2');
+		n1=document.getElementById('tv');
+		n2=document.getElementById('punto');
+		n3=document.getElementById('perro');
+		n.className="anipunto";
+		n1.className="tve";
+		n2.className="puntoe";
+		n3.className="perro";
+		letra=document.getElementById('letra');	
+		letra.className="letra";
+		const sonisue=document.getElementById('sonisue');
+		sonisue.innerHTML='<audio src="sueño.mp3" autoplay></audio>';
+		const fondo=document.getElementById('fondo');
+		fondo.innerHTML='<audio src="fondo2.mp3"></audio>';
+		setTimeout(quieto,17000);
+	}
+
+	var perro=function()
+	{
+		n=document.getElementById('ani2');
+		n1=document.getElementById('tv');
+		n2=document.getElementById('punto');
+		n3=document.getElementById('perro');
+		n.className="aniperro";
+		n1.className="tve";
+		n2.className="puntoe";
+		n3.className="perroe";
+		letra=document.getElementById('letra');	
+		letra.className="letra";
+		const soniper=document.getElementById('soniper');
+		soniper.innerHTML='<audio src="perro.mp3" autoplay loop></audio>';
+		const fondo=document.getElementById('fondo');
+		fondo.innerHTML='<audio src="fondo2.mp3"></audio>';
+		setTimeout(quieto,10000);
+	}
+</script>
+</body>
+</html>

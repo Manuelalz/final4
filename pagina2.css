@@ -1,0 +1,140 @@
+.texto{
+position: absolute;
+background: url(texto2.gif);
+top: 4%;
+left: 15%;
+height: 450px;
+width: 600px;
+display: block;
+}
+.hi{
+position: absolute;
+top: 38%;
+left: 38%;
+width: 200px;
+height: 150px;
+border: 5px;
+padding: 1px;
+background-color: #7ADBFD;
+color: black;
+text-decoration: none;
+font-family: "Courier New";
+border-radius: 15px;
+}
+.cuadro{
+position: absolute;
+background-color: orange;
+top: 20%;
+left: 18%;
+height: 500px;
+width: 850px;
+}
+.chiqui{
+position: absolute;
+background-color: lightblue;
+top: 2%;
+left: 18%;
+height: 500px;
+width: 850px;
+}
+.animacion{
+position: absolute;
+background: url(parte2.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+display: block;
+}
+.estatica{
+position: absolute;
+background: url(parte21.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+display: block;
+}
+.anitv{
+position: absolute;
+background: url(anitv.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+display: block;
+}
+.tv{
+position: absolute;
+background: url(tv.png);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+}
+.punto{
+position: absolute;
+background: url(punto.png);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 440px;
+}
+.anipunto{
+position: absolute;
+background: url(anioso.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+}
+.perro{
+position: absolute;
+background: url(perro.png);
+top: 4%;
+left: 6%;
+height: 250px;
+width: 500px;
+}
+.aniperro{
+position: absolute;
+background: url(aniperro.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+}
+
+.next{
+position: absolute;
+top: 86%;
+left: 92%;
+background: url(next.png);
+background-color: #D5FC7B;
+border-radius: 15px;
+}
+.previus{
+position: absolute;
+top: 86%;
+left: 1%;
+background: url(previus.png);
+background-color: #D5FC7B;
+border-radius: 15px;
+}
+.pagina{
+position: absolute;
+width: 30px;
+height: 35px;
+top: 92%;
+left: 49%;
+}
+.letra{
+position: absolute;
+top: 4%;
+color: black;
+text-decoration: none;
+font-family: "Courier New";
+}
+.letr{
+display: none;
+}

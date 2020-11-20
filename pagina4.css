@@ -1,0 +1,89 @@
+.hi{
+position: absolute;
+top: 38%;
+left: 38%;
+width: 200px;
+height: 150px;
+border: 5px;
+padding: 1px;
+background-color: #7ADBFD;
+color: black;
+text-decoration: none;
+font-family: "Courier New";
+border-radius: 15px;
+}
+.cuadro{
+position: absolute;
+background-color: orange;
+top: 20%;
+left: 18%;
+height: 500px;
+width: 850px;
+}
+.chiqui{
+position: absolute;
+background-color: lightblue;
+top: 2%;
+left: 18%;
+height: 500px;
+width: 850px;
+}
+.animacion{
+position: absolute;
+background: url(parte4.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+display: block;
+}
+.estatica{
+position: absolute;
+background: url(theend.png);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+display: block;
+}
+
+.volver{
+position: absolute;
+top: 87%;
+left: 95%;
+width: 80px;
+height: 50px;
+border: 1px;
+padding: 5px;
+background-color: #D5FC7B;
+color: black;
+text-decoration: none;
+font-family: "Courier New";
+border-radius: 15px;
+}
+.previus{
+position: absolute;
+top: 86%;
+left: 1%;
+background: url(previus.png);
+background-color: #D5FC7B;
+border-radius: 15px;
+}
+.pagina{
+position: absolute;
+width: 30px;
+height: 35px;
+top: 92%;
+left: 49%;
+}
+.letra{
+position: absolute;
+top: 4%;
+left: 5%;
+color: black;
+text-decoration: none;
+font-family: "Courier New";
+}
+.letr{
+display: none;
+}

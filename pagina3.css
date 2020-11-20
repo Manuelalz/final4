@@ -1,0 +1,125 @@
+.texto{
+position: absolute;
+background: url(texto3.gif);
+top: 4%;
+left: 15%;
+height: 450px;
+width: 600px;
+display: block;
+}
+.hi{
+position: absolute;
+top: 38%;
+left: 38%;
+width: 200px;
+height: 150px;
+border: 5px;
+padding: 1px;
+background-color: #7ADBFD;
+color: black;
+text-decoration: none;
+font-family: "Courier New";
+border-radius: 15px;
+}
+.cuadro{
+position: absolute;
+background-color: orange;
+top: 20%;
+left: 18%;
+height: 500px;
+width: 850px;
+}
+.chiqui{
+position: absolute;
+background-color: lightblue;
+top: 2%;
+left: 18%;
+height: 500px;
+width: 850px;
+}
+.animacion{
+position: absolute;
+background: url(parte3.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+display: block;
+}
+.estatica{
+position: absolute;
+background: url(parte3.png);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+display: block;
+}
+.aniabeja{
+position: absolute;
+background: url(aniabeja.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+display: block;
+}
+.abeja{
+position: absolute;
+background: url(abeja.png);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+}
+.sol{
+position: absolute;
+background: url(sol.png);
+top: 4%;
+left: 6%;
+height: 200px;
+width: 750px;
+}
+.anisol{
+position: absolute;
+background: url(anisol.gif);
+top: 4%;
+left: 6%;
+height: 450px;
+width: 750px;
+}
+
+.next{
+position: absolute;
+top: 86%;
+left: 92%;
+background: url(next.png);
+background-color: #D5FC7B;
+border-radius: 15px;
+}
+.previus{
+position: absolute;
+top: 86%;
+left: 1%;
+background: url(previus.png);
+background-color: #D5FC7B;
+border-radius: 15px;
+}
+.pagina{
+position: absolute;
+width: 30px;
+height: 35px;
+top: 92%;
+left: 49%;
+}
+.letra{
+position: absolute;
+top: 4%;
+left: 18%;
+color: black;
+text-decoration: none;
+font-family: "Courier New";
+}
+.letr{
+display: none;
+}
